@@ -1,0 +1,81 @@
+
+/*=============================================
+=            project grid post            =
+=============================================*/
+
+.project-grid-post{
+    
+    &__wrapper{
+        @media #{$tablet-device}{
+            margin-bottom: -30px;
+        }
+    }
+    &__single{
+        margin-bottom: 30px;
+        &:hover{
+            .project-grid-post__image{
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+    &__image{
+        margin-bottom: 30px;
+        transition: $transition--cubic;
+        img{
+            width: 100%;
+        }
+    }   
+
+    &__title{
+        margin-bottom: 20px;
+        @include font-size(20px);
+
+        &--black3{
+            color: $theme-color--black3;
+        }
+    }
+
+    &__text{
+        margin-bottom: 20px;
+    }
+
+    &__feature-list{
+        padding: 45px 50px;
+        border: 3px solid $theme-color--default;
+        width: 100%;
+
+
+        .title{
+            @include font-size(24px);
+            line-height: 1.2;
+            color: $theme-color--black3;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        .features{
+            margin-bottom: 30px;
+            li{
+                color: $theme-color--black3;
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 15px;
+                &:before{
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0;
+                    font-family: Ionicons;
+                    content: '\f122';
+                    font-size: 12px;
+                    color: $theme-color--default;
+                }
+            }
+        }
+    }
+
+}
+
+/*=====  End of project grid post  ======*/
+

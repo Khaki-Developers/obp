@@ -1,0 +1,34 @@
+.size16
+{
+	font-size: 15px;
+}
+
+
+.obHeader
+{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+
+.obHeaderNormal
+{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.obTextLight
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+.obText
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+.obNavHeader
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
