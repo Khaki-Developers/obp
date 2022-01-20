@@ -15,7 +15,7 @@
         
 
         // Set the recipient email address.
-        $recipient = "enquiry@obp-tanzania.co.tz";
+        $recipient = "secretariat@obp-tanzania.co.tz";
 
         // Set the email subject.
         $subject = "Web Enquiry From $name";
